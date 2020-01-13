@@ -30,6 +30,7 @@ public enum UpdateType: CaseIterable {
     case pagination
     case reload
     case messageCountReduction
+    case messageTransportReady
 }
 
 public protocol ChatDataSourceDelegateProtocol: class {
